@@ -46,5 +46,60 @@ p {
     font-size: 1rem;
     font-weight: 800;
     color: white;
-    background-color: #277BC0;
+    background-color: #277bc0;
+}
+
+/* Blogs Section */
+#blog-container {
+    margin: 0 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.navigation {
+    height: 320px;
+    width: 20%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.card {
+    height: 370px;
+    width: 300px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card-btn {
+    padding: 12px 15px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+}
+
+.card-content {
+    padding: 10px;
+}
+
+.card-icons {
+    display: flex;
+}
+
+.card-icons > p {
+    margin-right: 20px;
+}
+
+.card-description {
+    margin: 10px 0;
 }
