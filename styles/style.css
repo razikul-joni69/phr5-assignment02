@@ -7,3 +7,44 @@
 body {
     font-family: "Poppins", sans-serif;
 }
+
+/* Hero Section */
+#hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+}
+.hero-contant {
+    width: 80%;
+    height: 80%;
+    background-color: black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 0 100px;
+}
+
+.hero-image > img {
+    margin-top: 227px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+p {
+    color: rgb(199, 199, 199);
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 20px 15px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 800;
+    color: white;
+    background-color: #277BC0;
+}
