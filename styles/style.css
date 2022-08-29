@@ -51,7 +51,7 @@ p {
 
 /* Blogs Section */
 #blog-container {
-    margin: 0 120px;
+    margin: 50px 120px;
     display: flex;
     justify-content: space-between;
 }
@@ -102,4 +102,40 @@ p {
 
 .card-description {
     margin: 10px 0;
+}
+
+/* Footer Section */
+footer {
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer > div> h2 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+footer > div > hr {
+    margin: 30px 0;
+}
+.terms-links {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.terms-links > p {
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+.terms-links > a > i {
+    font-size: 2rem;
+    color: white;
+    margin: 0 20px;
 }
